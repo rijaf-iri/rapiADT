@@ -1,0 +1,26 @@
+Package: rapiADT
+Version: 2.0
+Title: Automatic Weather Station (AWS) Data Processing for ADT API
+Description: process AWS data from AWS networks, aggregate AWS data to a different time scale, analyze the processed AWS data and handle users request from AWS Data Tools web application and API. 
+Author: Rija Faniriantsoa <rijaf@iri.columbia.edu>
+Maintainer: Rija Faniriantsoa <rijaf@iri.columbia.com>
+License: GPL-3
+Encoding: UTF-8
+NeedsCompilation: no
+Date: 2022-03-23
+Imports: 
+    jsonlite,
+    DBI,
+    RODBC,
+    RMySQL,
+    reshape2,
+    fields,
+    sp,
+    sf,
+    methods,
+    geojsonio,
+    ncdf4,
+    lattice,
+    RCurl,
+    RColorBrewer,
+RoxygenNote: 7.2.0
